@@ -1,0 +1,277 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+ font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    z-index: 10;
+    top: 0; 
+}
+.navbar-brand
+{
+    color: #fff !important;
+} 
+.navbar
+{
+    background-image: linear-gradient(to right, #44A08D, #093637);
+    padding: 0 !important;
+}
+.navbar-nav li
+{
+    padding: 0 8px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+/*---------------------------Banner Section---------------------------------*/
+#main
+{
+    text-align: center;
+    background-image: linear-gradient(to right, #44A08D, #093637);
+    padding-top: 6%;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.img1
+{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.name-title
+{
+     color: #fff;
+     font-size: 30px;
+     font-weight: 500;
+}
+.name-title p
+{
+    font-size: 25px;
+    color: #fff !important;
+    font-weight: 300;
+}
+.button
+{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    
+}
+/*-----------------------------project section---------------------*/
+#project
+{
+    padding: 40px;
+}
+.title::before
+{
+    content: '';
+    background: #093637;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+.title::after
+{
+    content: '';
+    background: #093637;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(15px);
+}
+.project-img
+{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #093637;
+}
+.project h4
+{
+    padding: 20px;
+}
+.project
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+/*----------------------------About Section---------------------*/
+#about
+{
+    padding: 40px;
+    background: #f8f9fa;
+    padding-top: 50px;
+}
+.about p
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+.about-title
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.social-icons img
+{
+    width: 50px;
+    transition: 0.5s;
+    padding: 5px;
+}
+#about ul li
+{
+    margin: 10px 20px;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-15px);
+}
+
+/*-----------------------------------team secction-----------------*/
+#team
+{
+    padding: 40px;
+    
+}
+.member
+{
+    padding-bottom: 60px;
+}
+#team .card .box img
+{
+	width:150px;
+	display: block;
+	margin:10px auto;
+	border-radius:50%;
+
+}
+#team .card .box 
+{
+	padding:15px;
+	background-color: #44A08D;
+	border-radius:5px;
+	transition: margin 1s ease,box-shadow 1s ease;
+}
+#team .card
+{
+	float: left;
+    background-color: #093637;
+	padding:5px 15px;
+}
+#team .card .box h4
+{
+	font-size: 20px;
+	font-family: open sans;
+	margin:20px 0px 10px;
+	color:#093637;
+	text-align: center;
+	font-weight: 700;
+}
+#team .card .box h5
+{
+	font-size:16px;
+	font-family: open sans;
+	font-weight: 600;
+	color:#fff;
+	margin:0px 0px 15px;
+	text-align: center;
+}
+#team .card .box p
+{
+	color:#fff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	padding:0px 10px;
+}
+#team .card .box:hover
+{
+	margin-top:-15px;
+	box-shadow:0px 0px 40px black;
+}
+
+@media(max-width: 991px){
+	#team .card{
+		width:50%;
+		margin-bottom:30px;
+	}
+}
+
+@media(max-width:550px){
+	#team .card{
+		width:100%;
+	}
+}
+/*-------------------------------footer--------------------------*/
+#footer
+{
+    padding: 10px;
+    background-image: linear-gradient(to right, #44A08D, #093637);
+    color: #fff;
+}
+.footer-title::before
+{
+    content: '';
+    background: #fff;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+.footer-title::after
+{
+    content: '';
+    background: #fff;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(15px);
+}
+.question
+{
+ padding: 40px;   
+}
+.contact
+{
+ padding: 40px;   
+}
+.form-control
+{
+    border: 2px solid;
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright 
+{
+    text-align: center;
+}
